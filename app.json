@@ -12,6 +12,7 @@
     "SECRET_KEY_BASE": {
       "generator": "secret"
     },
+    "stack": "heroku-18",
     "FORCE_SSL": "true"
   },
   "addons": [
