@@ -5,6 +5,7 @@
   "repository": "https://github.com/snibox/snibox",
   "logo": "https://avatars3.githubusercontent.com/u/35972977",
   "success_url": "/register",
+  "stack": "heroku-18",
   "scripts": {
     "postdeploy": "bundle exec rake db:migrate"
   },
@@ -12,7 +13,6 @@
     "SECRET_KEY_BASE": {
       "generator": "secret"
     },
-    "stack": "heroku-18",
     "FORCE_SSL": "true"
   },
   "addons": [
